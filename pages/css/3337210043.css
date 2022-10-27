@@ -1,0 +1,206 @@
+ 
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    background-color: #76B39D;
+}
+
+.mynavbar { 
+    overflow: hidden;
+    width: 100%;
+    background: #085F63;
+    color: #ecf0f1;
+    padding: 0 30px;
+/*fixed nav*/
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.mynavbar-left {
+    overflow: hidden;
+    float: left;
+}
+
+.mynavbar-right {
+    overflow: hidden;
+    float: right;
+}
+
+.mynavbar-right ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.mynavbar-right ul li {
+    float: left;
+}
+
+.mynavbar-right ul li a {
+    display: inline-block;
+    padding: 25px 35px;
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+}
+
+section{
+      text-align: center;
+      padding-top: 20px;
+}
+
+.circle img{
+    width: 256px;
+    height: 256px;
+    border-radius: 100%;
+}
+
+.circle1 img{
+    margin-top: 50px;
+    width: 256px;
+    height: 256px;
+    border-radius: 100%;
+}
+
+/*Halaman Pertama*/
+.background h1{
+    width: 800px;
+    height: 70px;
+    color: whitesmoke;
+    position: absolute;
+    top: 55%;
+    left: 23%;
+    font-size: 40px;
+}
+
+.background h2{
+    width: 800px;
+    height: 70px;
+    color: whitesmoke;
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    font-size: 20px;
+}
+
+.background .button{
+    position: absolute;
+    left: 42%;
+    bottom: 70px;
+    width: 250px;
+    height: 60px;
+    background-color: #085F63;
+    border-radius: 30px;
+}
+.background .button a{
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 16.10px 10px 12px 12px;
+    font-weight: bold;
+}
+
+.background .poster{
+    position: absolute;
+    right: 85px;
+    top: 140px;
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+    background-image: url(media/img/gambar1.jpg);
+    border: 5px solid whitesmoke;
+    opacity: 0.85;
+    background-size: cover;
+    background-position: center;
+}
+
+.saya{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+ 
+/*Tabel*/
+.row div {
+    float: center;
+    margin-left: 20%;
+    margin-right: 20%; 
+}
+
+.center {
+    text-align: center; 
+}
+
+@media only screen and (min-width: 768px) {
+    /*For  desktop: (ukuran layar lebih besar dari 768px)*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;} 
+}
+
+
+table {
+    border: 3px solid #ecf0f1;
+    width: 100%;
+    margin-right:50%;
+    padding-right:0;
+    border-collapse: collapse;
+    border-spacing: 0; 
+} 
+ 
+table tr {
+    border: 3px solid #ecf0f1;
+    padding: 5px; 
+} 
+ 
+table th, table td {
+    padding: 10px;
+    text-align: center; 
+} 
+ 
+table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px; 
+}
+
+/*Gallery*/
+
+.gallery{
+    margin: 150px auto;
+    text-align: center;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    border: 3px solid #ecf0f1;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+footer{
+    background: #085F63;
+    text-align: center;
+    color: #ecf0f1;
+    padding-bottom: 1px;
+}
