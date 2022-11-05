@@ -1,0 +1,5 @@
+host: royanhabibie.my.id
+db: royanhab_if
+user: royanhab_if
+pass: 1nformatika
+port: 3306
