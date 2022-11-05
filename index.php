@@ -37,7 +37,7 @@ $result = mysqli_query($conn, "SELECT * FROM users ORDER BY `nama` ASC");
             echo "<td>" . $user_data['nama'] . "</td>";
             echo "<td>" . $user_data['kelas'] . "</td>";
             echo "<td>" . $user_data['email'] . "</td>";
-            echo "<td><a class='btn btn-success' href='\profile\index.php?nim=$user_data[nim]'>View</a></td></tr>";
+            echo "<td><a class='btn btn-success' href='profile.php?nim=$user_data[nim]'>View</a></td></tr>";
         }
         ?>
     </table>
