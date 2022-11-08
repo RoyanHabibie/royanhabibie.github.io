@@ -110,7 +110,7 @@ $awards = mysqli_query($conn, "SELECT * FROM awards WHERE nim=$nim");
         </section>
         <hr class="m-0" />
         <!-- Education-->
-        <section class="resume-section" id="education">
+        <!-- <section class="resume-section" id="education">
             <div class="resume-section-content">
                 <h2 class="mb-5">Education</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -132,7 +132,7 @@ $awards = mysqli_query($conn, "SELECT * FROM awards WHERE nim=$nim");
                 </div>
             </div>
         </section>
-        <hr class="m-0" />
+        <hr class="m-0" /> -->
         <!-- Skills-->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
